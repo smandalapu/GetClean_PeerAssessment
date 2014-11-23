@@ -82,7 +82,7 @@ DataSet1 <- cbind(mergedSubject, mergedLabel, mergedData)
 str(DataSet1)
 write.table(DataSet1, "subject_activity_data.txt") # write out the 1st dataset
 
-# Step5. Creates a second, independent tidy data set with the average of 
+#5. Create a second, independent tidy data set with the average of 
 # each variable for each activity and each subject. 
 ##Get count for subjects
 subjectLen <- length(table(mergedSubject))
